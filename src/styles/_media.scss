@@ -1,0 +1,228 @@
+@media screen and (max-width: 1580px) {
+	.container {
+		width: 1500px;
+	}
+	.projectList {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.container {
+		width: 1140px;
+	}
+	.innerAbout {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.container {
+		width: 900px;
+	}
+	.topContent {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.topTitle {
+		width: auto;
+	}
+	.myLogo {
+		width: 523px;
+		height: 525px;
+	}
+	.groupText {
+		width: 840px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.container {
+		width: 740px;
+	}
+	.topContent {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.topTitle {
+		width: auto;
+	}
+	.myLogo {
+		width: 523px;
+		height: 525px;
+	}
+	.groupText {
+		width: 740px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.container {
+		width: 340px;
+	}
+	.aosheader {
+		position: fixed;
+		background-color: rgba($color: #7b4ae2, $alpha: 0.5);
+		width: 100vw;
+		top: 0;
+		z-index: 22;
+	}
+	.nav {
+		position: relative;
+	}
+	.myLogo {
+		width: 285px;
+		height: 308px;
+	}
+	.topTitle {
+		width: 256px;
+	}
+	.expList {
+		flex-wrap: wrap;
+	}
+	.textGroup {
+		display: none;
+	}
+	.about {
+		padding: 70px 0;
+	}
+	.photoAbout {
+		width: 185px;
+		height: 201px;
+		margin-bottom: 20px;
+	}
+	.aboutContent,
+	.aosAbout {
+		width: 320px;
+	}
+	.projectInner {
+		width: 100%;
+		justify-content: center;
+	}
+	.projectList {
+		display: flex;
+		gap: 20px;
+		margin: 0 auto;
+		justify-content: start;
+		overflow-y: auto;
+		flex-wrap: inherit;
+	}
+	.projectList::-webkit-scrollbar {
+		display: none;
+	}
+
+	.projectListItem {
+		width: 320px;
+	}
+	.groupListItem {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.projectListImg {
+		width: 100%;
+	}
+
+	.project {
+		padding-bottom: 37px;
+	}
+	.skills {
+		margin-top: 37px;
+		padding-bottom: 70px;
+	}
+	.skillList {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.constctInner {
+		flex-direction: column;
+	}
+	.contentFooter {
+		height: 90px;
+		gap: 20px;
+		flex-direction: column-reverse;
+	}
+	.footerCopyright {
+		display: block;
+	}
+	.btnMenu {
+		position: relative;
+		padding: 0 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		z-index: 20;
+		background-color: transparent;
+	}
+	.spanTop,
+	.spanbott {
+		position: relative;
+		width: 40px;
+		height: 2px;
+		background-color: #ffff;
+		transition: all 0.4s;
+	}
+	.spanTopActive {
+		position: relative;
+		width: 25px;
+		height: 2px;
+		background-color: #ffff;
+		transform: rotate(-45deg) translateX(-5px);
+		transition: all 0.4s;
+	}
+	.spanCenterActive {
+		position: relative;
+		display: inline-block;
+		width: 40px;
+		height: 2px;
+		background-color: #ffff;
+		transform: translate(0, 0);
+		transition: all 0.4s;
+	}
+	.spanbottActive {
+		position: relative;
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		background-color: #ffff;
+		transform: rotate(45deg) translateX(-5px);
+		transition: all 0.4s;
+	}
+	.navList {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		opacity: 0;
+		width: 100vw;
+		height: 100vh;
+		visibility: hidden;
+		transform: translateY(-100%);
+		transition: all 0.4s;
+	}
+	.navListActive {
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		gap: 25px;
+		z-index: 2;
+		opacity: 1;
+		width: 100vw;
+		height: 100vh;
+		transform: translateY(0%);
+		background-color: #090e16;
+		transition: all 0.6s;
+	}
+}

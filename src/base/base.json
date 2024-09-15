@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"name": "Online clothing store Yanki",
+		"text": "The site was created by me for coursework at the university, a site about selling clothes. There is adaptation for mobile devices.",
+		"lang": "JS/CSS/Html",
+		"urlGit": "https://nimarchik.github.io/Portfolio/",
+		"urlImg": "/public/yanki.png"
+	},
+	{
+		"id": 2,
+		"name": "Avion online furniture store",
+		"text": "The site was created to get a hand in layout. Template found on the Internet, there is adaptation for cell phones. Contact for purchase can be made in the footer of the site.",
+		"lang": "JS/SASS/HTML",
+		"urlGit": "https://nimarchik.github.io/xwear/",
+		"urlImg": "/public/avion.png"
+	},
+	{
+		"id": 3,
+		"name": "Web site for the presentation of the game SOS",
+		"text": "The site was created to get a hand in layout. Template found on the Internet, there is adaptation for cell phones. Contact for purchase can be made in the footer of the site.",
+		"lang": "JS/SASS/Bootstrap",
+		"urlGit": "https://nimarchik.github.io/game-sites.githab.io/",
+		"urlImg": "/public/sos.png"
+	},
+	{
+		"id": 4,
+		"name": "I created this site called LeasCar to practice building websites.",
+		"text": "The site is made for practice in creating websites, there is adaptation for cell phones. Contact for purchase can be made in the footer of the site.",
+		"lang": "JS/CSS/HTML",
+		"urlGit": "https://nimarchik.github.io/leaseCar.githab.io/",
+		"urlImg": "/public/leas.png"
+	}
+]
