@@ -5,7 +5,7 @@
 		"text": "The site was created by me for coursework at the university, a site about selling clothes. There is adaptation for mobile devices.",
 		"lang": "JS/CSS/Html",
 		"urlGit": "https://nimarchik.github.io/Portfolio/",
-		"urlImg": "/public/yanki.png"
+		"urlImg": "/yanki.png"
 	},
 	{
 		"id": 2,
@@ -13,7 +13,7 @@
 		"text": "The site was created to get a hand in layout. Template found on the Internet, there is adaptation for cell phones. Contact for purchase can be made in the footer of the site.",
 		"lang": "JS/SASS/HTML",
 		"urlGit": "https://nimarchik.github.io/xwear/",
-		"urlImg": "/public/avion.png"
+		"urlImg": "/avion.png"
 	},
 	{
 		"id": 3,
@@ -21,7 +21,7 @@
 		"text": "The site was created to get a hand in layout. Template found on the Internet, there is adaptation for cell phones. Contact for purchase can be made in the footer of the site.",
 		"lang": "JS/SASS/Bootstrap",
 		"urlGit": "https://nimarchik.github.io/game-sites.githab.io/",
-		"urlImg": "/public/sos.png"
+		"urlImg": "/sos.png"
 	},
 	{
 		"id": 4,
@@ -29,6 +29,6 @@
 		"text": "The site is made for practice in creating websites, there is adaptation for cell phones. Contact for purchase can be made in the footer of the site.",
 		"lang": "JS/CSS/HTML",
 		"urlGit": "https://nimarchik.github.io/leaseCar.githab.io/",
-		"urlImg": "/public/leas.png"
+		"urlImg": "/leas.png"
 	}
 ]
