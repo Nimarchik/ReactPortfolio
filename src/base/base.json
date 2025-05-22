@@ -30,5 +30,13 @@
 		"lang": "JS/CSS/HTML",
 		"urlGit": "https://nimarchik.github.io/leaseCar.githab.io/",
 		"urlImg": "./leas.png"
+	},
+	{
+		"id": 5,
+		"name": "Unite Game",
+		"text": "This website was created by a single person — me — as a university coursework project. It took over 3 months of dedicated work to bring it to life. The project is fully built with React, styled using the SASS preprocessor, and utilizes a range of modern libraries and frameworks, including React Router, i18next for multilingual support, Flickity for interactive sliders, and many others.",
+		"lang": "React/SCSS",
+		"urlGit": "https://nimarchik.github.io/United/#/en/",
+		"urlImg": "./unite.png"
 	}
 ]
